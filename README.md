@@ -21,7 +21,7 @@ Software-driven 4G mobile provider, designed specifically for in-building and ou
   - Automated a few installation processes with some Bash and Python scripts
   - Developed an internal web tool based on Angular, to install and monitor these servers
   - **_Technologies used:_** Angular, TypeScript, Node.js, Bash, Python.
-    <br><br>
+<br><br>
 
 ## ☎ Telecommunications Experience
 
@@ -32,20 +32,21 @@ _This section only accounts for work done post-career change._
 Software-driven 4G mobile provider, designed specifically for in-building and outdoor use.
   - Worked in a team from both Italy and USA to configure 4G mobile radio parameters, to fit specific customer needs
   - Moved in a few business trips to help customers to install servers on site and help them with the troubleshooting
-  <br><br>
+<br><br>
 
 ## 👨‍🎓 Education
 
-**Master Degree in Telecommunications Engineering** @ [Università di Bologna](https://www.unibo.it/) _(Oct 2015 - Marc 2018)_<br>
-  <br><br>
+**Master Degree in Telecommunications Engineering** @ [Università di Bologna](https://www.unibo.it/) _(Oct 2015 - Marc 2018)_
+<br><br>
 
-**Bachelor Degree in Electronic Engineering** @ [Università Politecnica delle Marche](https://www.univpm.it/) _(Oct 2012 - Jul 2015)_ <br>
-  <br><br>
+**Bachelor Degree in Electronic Engineering** @ [Università Politecnica delle Marche](https://www.univpm.it/) _(Oct 2012 - Jul 2015)_
+<br><br>
   
 ## 🚃 Other courses
 
 **Railway high formation course** @ [Rete Ferroviaria Italiana](https://www.rfi.it/) _(Jun 2017 - Aug 2017)_ <br>
 Followed a 3 months university course on the Italian railway system.
+<br><br>
 
 ## 💬 Languages
 
