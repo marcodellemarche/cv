@@ -2,6 +2,8 @@
 
 _Software engineer based in Bologna 🇮🇹_ <br>
 
+<img src="images/profile.png" alt="Profile picture" width="200"/>
+
 [Email](mailto:mferretti93@gmail.com) / [LinkedIn](https://www.linkedin.com/in/marco-ferretti195/) / [GitHub](https://github.com/marcodellemarche/) / [Instagram](https://www.instagram.com/marcodellemarche/)
 
 ## 👩🏼‍💻 Engineering Experience
