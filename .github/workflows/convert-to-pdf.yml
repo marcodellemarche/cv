@@ -19,15 +19,10 @@ jobs:
 
       - name: Markdown to PDF
         run: |
-          mkdir -p output
-          echo; echo "Input Folder Listing"
-          ls
-          echo; echo "Generating PDF"
-          npx md-to-pdf README.md --stylesheet theme/styles.css > output/marco-ferretti-cv.pdf
-          echo; echo "Output Folder Listing"
-          ls ./output
+          npx md-to-pdf README.md --stylesheet theme/styles.css --pdf-options '{ "format": "a4", "margin": "20mm 20mm" }'
+          mv README.pdf marco-ferretti-cv.pdf
 
       - uses: actions/upload-artifact@v3
         with:
           name: marco-ferretti-cv.pdf
-          path: output/marco-ferretti-cv.pdf
+          path: marco-ferretti-cv.pdf
