@@ -8,7 +8,7 @@ on:
     # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
     paths:
       - '**.md'
-      - 'images/**'
+      - 'assets/**'
 
 jobs:
   converttopdf:
@@ -19,7 +19,10 @@ jobs:
 
       - name: Markdown to PDF
         run: |
-          npx md-to-pdf README.md --stylesheet theme/styles.css --pdf-options '{ "format": "a4", "margin": "20mm 20mm" }'
+          npx md-to-pdf README.md \
+            --stylesheet https://marcodellemarche.github.io/cv/assets/css/style.css \
+            --stylesheet assets/custom.css \
+            --pdf-options '{ "format": "a4", "margin": "20mm 20mm" }'
           mv README.pdf marco-ferretti-cv.pdf
 
       - uses: actions/upload-artifact@v3

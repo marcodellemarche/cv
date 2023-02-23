@@ -1,6 +1,6 @@
 # Marco Ferretti
 
-<img src="images/profile.png" alt="Profile picture" width="200" align="right"/>
+<img src="assets/profile.png" alt="Profile picture" width="200" align="right"/>
 
 _Software engineer based in Bologna 🇮🇹_
 
