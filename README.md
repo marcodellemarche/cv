@@ -25,6 +25,8 @@ Software-driven 4G mobile provider, designed specifically for in-building and ou
   - **_Technologies used:_** Angular, TypeScript, Node.js, Bash, Python.
 <br><br>
 
+<div class="page-break"></div>
+
 ## ☎ Telecommunications Experience
 
 _This section only accounts for work done post-career change._

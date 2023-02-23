@@ -15,17 +15,19 @@ jobs:
     name: Build PDF
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: baileyjm02/markdown-to-pdf@v1
+      - uses: actions/checkout@v3
+
+      - name: Markdown to PDF
+        run: |
+          mkdir -p output
+          echo; echo "Input Folder Listing"
+          ls
+          echo; echo "Generating PDF"
+          npx md-to-pdf README.md --stylesheet theme/styles.css > output/marco-ferretti-cv.pdf
+          echo; echo "Output Folder Listing"
+          ls ./output
+
+      - uses: actions/upload-artifact@v3
         with:
-          input_dir: ./
-          output_dir: pdfs
-          images_dir: ./images
-          # for example <img src="./images/file-name.png">
-          image_import: ./images
-          # Default is true, can set to false to only get PDF files
-          build_html: false
-      - uses: actions/upload-artifact@v1
-        with:
-          name: docs
-          path: pdfs
+          name: marco-ferretti-cv.pdf
+          path: output/marco-ferretti-cv.pdf
