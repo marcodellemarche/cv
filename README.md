@@ -31,7 +31,7 @@ Software-driven 4G mobile provider, designed specifically for in-building and ou
 
 ## 📡 Telecommunications Experience
 
-_This section only accounts for work done post-career change._
+_This section only accounts for previous experiences not related to software development._
 
 **Field Engineer** @ [JMA Wireless](https://www.jmawireless.com/en) _(Apr 2018 - Oct 2019)_
 
