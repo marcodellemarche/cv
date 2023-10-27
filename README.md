@@ -1,88 +1,68 @@
-# Curriculum Vitae Markdown
-
-❗ The important stuff starts here ❗
-
-Hi everyone! This repository is a template and it's meant to be used as a starting point for your Curriculum Vitae.
-
-Come on, updating the CV is already boring by itself, imagine having to take care of its formatting as well. So the idea is to update a single Markdown file, like this README, and a Github Action will take care of the rest. It will:
-
-- Put the CV online on **Github Pages**, built with Jekyll. You can even use a custom domain if you'd like. You don't need to worry too much about the formatting. Feel free to move from Jekyll to [one of these](https://github.com/pages-themes).
-- Convert it to a **PDF**, which is uploaded as the `latest` Release. A link to it can be found a few lines above, so it can be easily downloaded by the online version of the CV.
-
-At every commit into the `main` branch, everything will be rebuilt and updated.
-
-Thus, the only thing you need to update is this README. And most importantly, before starting, there are a couple things to do:
-
-- **Update the links in the template below**, especially the link to the PDF. Just change `marcodellemarche/cvmd` with your Github username and repository name.
-- Enable Github Pages for your repo. Go to *Settings*, *Pages*, then under *Build and deployment* set the source to **Github Actions**.
-- You need to re-run once again the failed Action.
-
-*Pro tip*: if you need to force a page break into the PDF, simply use the following HTML element.
-
-```html
-<div class="page-break"></div>
-```
-
-That's it for today, I'll leave you to the fake CV you might take inspiration from. See ya! 👋
-
-❗ The important stuff ends here ❗
-
-<div class="page-break"></div>
-
-# Paolo Canestro
+# Marco Ferretti
 
 <img src="assets/profile.png" alt="Profile picture" width="200" align="right"/>
 
-*Super powerful engineer, based on the moon* 🌝
+*Full stack software engineer, remote working but based in Bologna* 🇮🇹
 
-[Email](mailto:paolo@canestro.com) / [LinkedIn](https://www.linkedin.com/in/cvmd) / [GitHub](https://github.com/cvmd) / [Instagram](https://www.instagram.com/cvmd)
+[Email](mailto:mferretti93@gmail.com) / [LinkedIn](https://www.linkedin.com/in/marcodellemarche) / [GitHub](https://github.com/marcodellemarche) / [Instagram](https://www.instagram.com/marcodellemarche)
 
-📎 Download this CV [as a PDF](https://github.com/marcodellemarche/cvmd/releases/download/latest/cv.pdf)
+📎 Download this CV [as a PDF](https://github.com/marcodellemarche/cv/releases/download/latest/marco-ferretti-cv.pdf)
 
-## 🌙 Moonlight Engineering Experience
+## 💻 Engineering Experience
 
-*At night, I take on some moonlight engineering gigs.*
+**Fullstack Developer** @ [CUBBIT](https://cubbit.io) _(Jul 2021 - Present)_
 
-**Satellite Repair Technician** @ [SatCom Solutions](http://satcomsolutions.net) *(Jun 2030 - Present)*
+Geo-distributed cloud storage platform based on a peer-to-peer network of nodes.
 
-Repairing satellites orbiting the Earth, one screwdriver twist at a time. It's like a celestial puzzle.
+- For the first year, I worked in the frontend team to build a public web app based on React.
+- Then, I joined the backend team to build the core of Cubbit's technology, developing microservices written in NodeJS, Rust and Go.
+- Design and maintenance of a PostgreSQL database, monitoring and improving its performance making it scale from zero usage to billions of rows.
+- During the daily life of the team, I am used to prepare tasks descriptions and make code reviews.
+- Side experience with other tools/technologies such as Docker, Kubernetes, Redis and Kafka.
+- Particular focus of the team on testing, especially in unit and E2E testing.
+- Co-hosted some recruitment meetings, where I mostly focused on the technical questions.
+- **_Technologies used:_** TypeScript, Node.js, Go, Rust, React, Jest, PostgreSQL, Kafka, Docker, Kubernetes, Bazel.
 
-- Conducted spacewalks in zero gravity to fix satellites, occasionally juggling tools for amusement.
+**Frontend Developer** @ [JMA Wireless](http://jmawireless.com) _(Oct 2019 - Jul 2021)_
 
-- Reprogrammed satellite communication systems with a dash of moon-inspired humor.
+Software-driven 4G mobile provider, designed specifically for in-building and outdoor use.
 
-- ***Technologies used:*** Celestial wrenches, zero-gravity jokes, satellite communication wizardry.
-
-## 👨‍🚀 Lunar Education
-
-**Ph.D. in Lunar Engineering** @ [Università di Formaggio Lunare](https://www.formaggiolunare.edu) *(Aug 2020 - Dec 2021)*
-
-Studied the intricacies of lunar cheese formation and its potential applications in rocketry.
-
-**B.A. in Galactic Giggles** @ [Università Comica delle Stelle](https://www.stellecomiche.edu) *(Mar 2017 - Jul 2020)*
-
-A degree in making the cosmos laugh, one planet at a time.
+- Configured CentOS Dell servers from the first boot-up to the final setup to be sent to customers
+- Automated a few installation processes with some Bash and Python scripts
+- Developed an internal web tool based on Angular, to install and monitor these servers
+- **_Technologies used:_** Angular, TypeScript, Node.js, Bash, Python.
 
 <div class="page-break"></div>
 
-## 🌌 Interstellar Extracurriculars
+## 📡 Telecommunications Experience
 
-**Space Toastmasters Club** @ [Cosmic Communicators](http://cosmiccommunicators.club) *(Oct 2023 - Present)*
+_This section only accounts for previous experiences not related to software development._
 
-Mastering the art of cosmic speech and interstellar storytelling.
+**Field Engineer** @ [JMA Wireless](https://www.jmawireless.com) _(Apr 2018 - Oct 2019)_
 
-**Astro-Pizza Baking Course** @ [PizzaGalaxy Academy](https://www.pizzagalaxy.edu) *(May 2022 - Jun 2022)*
+Software-driven 4G mobile provider, designed specifically for in-building and outdoor use.
 
-Learned the fine art of baking pizza with moon dust and star cheese. Deliciously otherworldly.
+- Worked in a team from both Italy and USA to configure 4G mobile radio parameters, to fit specific customer needs
+- Moved on a few business trips to help customers to install servers on-site and help them with the troubleshooting
 
-## 💬 Multilingual Skills
+## 👨‍🎓 Education
 
-🧀 **Lunar**: Fluent
+**Master's Degree in Telecommunications Engineering** @ [Università di Bologna](https://www.unibo.it) _(Oct 2015 - Marc 2018)_
 
-🌌 **Galactic English**: Conversational
+**Bachelor's Degree in Electronic Engineering** @ [Università Politecnica delle Marche](https://www.univpm.it) _(Oct 2012 - Jul 2015)_
 
-👽 **Alien Dialects**: Proficient in Charades
+## 🚃 Other courses
 
-In summary, I'm not your typical engineer or comedian. I'm the guy who builds rockets and tells jokes on the moon. If you need a laugh and a lift-off, I'm your man! 🚀🌝😂
+**Railway high formation course** @ [Rete Ferroviaria Italiana](https://www.rfi.it) _(Jun 2017 - Aug 2017)_
 
-*I authorize the processing of personal data contained in my curriculum vitae based on art. 13 GDPR 679/16.*
+Followed a 3 months university course on the Italian railway system.
+
+## 💬 Languages
+
+🇮🇹 **Italian**: Native
+
+🇺🇸 **English**: Fluent
+
+🇪🇸 **Spanish**: Communicative
+
+_I authorize the processing of personal data contained in my curriculum vitae based on art. 13 GDPR 679/16._
