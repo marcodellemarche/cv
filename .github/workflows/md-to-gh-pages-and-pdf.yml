@@ -74,7 +74,7 @@ jobs:
             --stylesheet "$url/assets/css/style.css" \
             --css '.page-break { page-break-after: always; }' \
             --pdf-options '{ "format": "a4", "margin": "15mm 15mm" }'
-          mv README.pdf cv.pdf
+          mv README.pdf marco-ferretti-cv.pdf
 
       - name: Upload PDF into latest release
         uses: marvinpinto/action-automatic-releases@v1.2.1
@@ -84,4 +84,4 @@ jobs:
           prerelease: false
           title: "CV's PDF"
           files: |
-            cv.pdf
+            marco-ferretti-cv.pdf
