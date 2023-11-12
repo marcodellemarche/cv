@@ -4,7 +4,7 @@
 
 *Full stack software engineer, remote working but based in Bologna* 🇮🇹
 
-[Email](mailto:mferretti93@gmail.com) / [LinkedIn](https://www.linkedin.com/in/marcodellemarche) / [GitHub](https://github.com/marcodellemarche) / [Instagram](https://www.instagram.com/marcodellemarche)
+[Email](mailto:mferretti93@gmail.com) / [LinkedIn](https://www.linkedin.com/in/marcodellemarche) / [GitHub](https://github.com/marcodellemarche) / [Instagram](https://www.instagram.com/marcodellemarche) / [Remote Workers](https://rok.co/@marcodellemarche)
 
 📎 Download this CV [as a PDF](https://github.com/marcodellemarche/cv/releases/download/latest/marco-ferretti-cv.pdf)
 
