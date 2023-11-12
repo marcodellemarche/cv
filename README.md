@@ -65,4 +65,6 @@ Followed a 3 months university course on the Italian railway system.
 
 🇪🇸 **Spanish**: Communicative
 
+🇵🇹 **Portuguese**: Still learning
+
 _I authorize the processing of personal data contained in my curriculum vitae based on art. 13 GDPR 679/16._
