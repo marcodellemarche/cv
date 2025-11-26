@@ -2,9 +2,7 @@
 
 <img src="assets/profile.png" alt="Profile picture" width="200" align="right"/>
 
-*Full-stack engineer with strong expertise in distributed systems, scalable backend architectures, and high-volume data platforms. Experienced in Go, Rust, and Node.js microservices, performance optimization, and end-to-end testing. Comfortable owning complex features from design to deployment, collaborating in distributed teams, and mentoring engineers.*
-
-Full stack software engineer — Remote (from 🇮🇹)
+*Full-stack engineer with strong expertise in distributed systems, scalable backend architectures, and high-volume data platforms. Experienced in Go, Rust, and Node.js microservices, performance optimization, and end-to-end testing. Comfortable owning complex features from design to deployment, collaborating in distributed teams, and mentoring engineers. From* 🇮🇹
 
 [Email](mailto:mferretti93@gmail.com) / [LinkedIn](https://www.linkedin.com/in/marcodellemarche) / [GitHub](https://github.com/marcodellemarche) / [Instagram](https://www.instagram.com/marcodellemarche) / [Remote Workers](https://rok.co/@marcodellemarche)
 
