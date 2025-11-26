@@ -2,60 +2,77 @@
 
 <img src="assets/profile.png" alt="Profile picture" width="200" align="right"/>
 
-*Full stack software engineer, remote working but based in Bologna* 🇮🇹
+*Full-stack engineer with strong expertise in distributed systems, scalable backend architectures, and high-volume data platforms. Experienced in Go, Rust, and Node.js microservices, performance optimization, and end-to-end testing. Comfortable owning complex features from design to deployment, collaborating in distributed teams, and mentoring engineers.*
+
+Full stack software engineer — Remote (from 🇮🇹)
 
 [Email](mailto:mferretti93@gmail.com) / [LinkedIn](https://www.linkedin.com/in/marcodellemarche) / [GitHub](https://github.com/marcodellemarche) / [Instagram](https://www.instagram.com/marcodellemarche) / [Remote Workers](https://rok.co/@marcodellemarche)
 
 📎 Download this CV [as a PDF](https://github.com/marcodellemarche/cv/releases/download/latest/marco-ferretti-cv.pdf)
 
+## Core Skills
+
+- **Languages**: Go, Rust, TypeScript, Python, Bash
+- **Backend**: PostgreSQL, Redis, Kafka, Node.js, microservices architecture
+- **Frontend**: React, Angular, Next.js
+- **Infrastructure**: Docker, Kubernetes, CI/CD, Bazel
+- **Other**: E2E testing, unit testing, distributed systems, performance optimization
+
 ## 💻 Engineering Experience
 
-**Fullstack Developer** @ [CUBBIT](https://cubbit.io) _(Jul 2021 - Present)_
+**Fullstack Developer (Frontend → Backend → Distributed Storage Platform)** @ [CUBBIT](https://cubbit.io) *(Jul 2021 - Present)*
 
 Geo-distributed cloud storage platform based on a peer-to-peer network of nodes.
 
-- For the first year, I worked in the frontend team to build a public web app based on React.
-- Then, I joined the backend team to build the core of Cubbit's technology, developing microservices written in NodeJS, Rust and Go.
-- Design and maintenance of a PostgreSQL database, monitoring and improving its performance making it scale from zero usage to billions of rows.
-- During the daily life of the team, I am used to prepare tasks descriptions and make code reviews.
-- Side experience with other tools/technologies such as Docker, Kubernetes, Redis and Kafka.
-- Particular focus of the team on testing, especially in unit and E2E testing.
-- Co-hosted some recruitment meetings, where I mostly focused on the technical questions.
-- **_Technologies used:_** TypeScript, Node.js, Go, Rust, React, Jest, PostgreSQL, Kafka, Docker, Kubernetes, Bazel.
+- **Frontend**: Built and launched customer-facing web applications using React and TypeScript, serving >5,000 users.
+- **Backend**: Developed backend microservices in Go, Rust, enabling the platform to handle up to 8,000 req/s.
+- **Database**: Designed, optimized, and maintained a PostgreSQL database system, scaling it from zero to >20 TB of data while improving throughput, query latency and database health.
+- **Infrastructure**: Contributed to CI/CD, containerization, and orchestration workflows using Docker, Kubernetes, Bazel, Kafka, and Redis.
+- **Observability**: Implemented logging, monitoring, and alerting systems on Grafana, to ensure high availability and quick incident response.
+- **Team & Processes**: Led task scoping, technical discussions, and code reviews within a distributed engineering team.
+- **Hiring**: Co-led technical interviews and evaluated candidates on backend and system-design topics.
+- **Testing**: Ensured high reliability via strong testing practices, including extensive unit and E2E test coverage.
 
-**Frontend Developer** @ [JMA Wireless](http://jmawireless.com) _(Oct 2019 - Jul 2021)_
+*Technologies*: Go, Rust, PostgreSQL, Kafka, Docker, Kubernetes, TypeScript, Node.js, OpenTelemetry, React, Jest, Bazel.
+
+**Frontend Developer (Frontend)** @ [JMA Wireless](http://jmawireless.com) *(Oct 2019 - Jul 2021)*
 
 Software-driven 4G mobile provider, designed specifically for in-building and outdoor use.
 
-- Configured CentOS Dell servers from the first boot-up to the final setup to be sent to customers
-- Automated a few installation processes with some Bash and Python scripts
-- Developed an internal web tool based on Angular, to install and monitor these servers
-- **_Technologies used:_** Angular, TypeScript, Node.js, Bash, Python.
+- Automated key installation steps using Python and Bash, reducing setup time and configuration errors.
+- Developed Angular tools to streamline server installation and monitoring for internal teams.
+- Configured over 50 CentOS-based Dell servers and prepared them for production deployment.
+
+*Technologies*: Angular, TypeScript, Node.js, Bash, Python.
 
 <div class="page-break"></div>
 
 ## 📡 Telecommunications Experience
 
-_This section only accounts for previous experiences not related to software development._
+*This section only accounts for previous experiences not related to software development.*
 
-**Field Engineer** @ [JMA Wireless](https://www.jmawireless.com) _(Apr 2018 - Oct 2019)_
+**Field Engineer** @ [JMA Wireless](https://www.jmawireless.com) *(Apr 2018 - Oct 2019)*
 
 Software-driven 4G mobile provider, designed specifically for in-building and outdoor use.
 
-- Worked in a team from both Italy and USA to configure 4G mobile radio parameters, to fit specific customer needs
-- Moved on a few business trips to help customers to install servers on-site and help them with the troubleshooting
+- Configured 4G radio parameters in collaboration with teams in Italy and the USA to meet customer requirements.
+- Provided on-site support during server installations and troubleshooting, completing >10 client deployments internationally.
 
 ## 👨‍🎓 Education
 
-**Master's Degree in Telecommunications Engineering** @ [Università di Bologna](https://www.unibo.it) _(Oct 2015 - Marc 2018)_
+**Master's Degree in Telecommunications Engineering** @ [Università di Bologna](https://www.unibo.it) *(Oct 2015 - Mar 2018)*
 
-**Bachelor's Degree in Electronic Engineering** @ [Università Politecnica delle Marche](https://www.univpm.it) _(Oct 2012 - Jul 2015)_
+Focus on digital communications, signal processing, networking, and distributed systems.
+
+**Bachelor's Degree in Electronic Engineering** @ [Università Politecnica delle Marche](https://www.univpm.it) *(Oct 2012 - Jul 2015)*
+
+Coursework in electronics, embedded systems, and information theory.
 
 ## 🚃 Other courses
 
-**Railway high formation course** @ [Rete Ferroviaria Italiana](https://www.rfi.it) _(Jun 2017 - Aug 2017)_
+**Railway high formation course** @ [Rete Ferroviaria Italiana](https://www.rfi.it) *(Jun 2017 - Aug 2017)*
 
-Followed a 3 months university course on the Italian railway system.
+Three-month university course on the Italian railway system.
 
 ## 💬 Languages
 
@@ -63,8 +80,8 @@ Followed a 3 months university course on the Italian railway system.
 
 🇺🇸 **English**: Fluent
 
-🇪🇸 **Spanish**: Communicative
+🇪🇸 **Spanish**: Conversational
 
-🇵🇹 **Portuguese**: Still learning
+🇵🇹 **Portuguese**: Conversational
 
-_I authorize the processing of personal data contained in my curriculum vitae based on art. 13 GDPR 679/16._
+*I authorize the processing of personal data contained in my curriculum vitae based on art. 13 GDPR 679/16.*
