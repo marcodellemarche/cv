@@ -24,7 +24,7 @@ Geo-distributed cloud storage platform based on a peer-to-peer network of nodes.
 
 - **Frontend**: Built and launched customer-facing web applications using React and TypeScript, serving >5,000 users.
 - **Backend**: Developed backend microservices in Go, Rust, enabling the platform to handle up to 8,000 req/s.
-- **Database**: Designed, optimized, and maintained a PostgreSQL database system, scaling it from zero to >20 TB of data while improving throughput, query latency and database health.
+- **Database**: Designed, optimized, and maintained a PostgreSQL OTLP database system, scaling it from zero to >20 TB of data while improving throughput, query latency and database health.
 - **Infrastructure**: Contributed to CI/CD, containerization, and orchestration workflows using Docker, Kubernetes, Bazel, Kafka, and Redis.
 - **Observability**: Implemented logging, monitoring, and alerting systems on Grafana, to ensure high availability and quick incident response.
 - **Team & Processes**: Led task scoping, technical discussions, and code reviews within a distributed engineering team.
