@@ -61,6 +61,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        
+      - name: Update markdown download link
+        run: |
+          sed -i 's|📎 Download this CV \[as a PDF\](https://github.com/marcodellemarche/cv/releases/download/latest/marco-ferretti-cv.pdf)|🌐 Check this CV at \[cv.marcodellemarche.com\](https://cv.marcodellemarche.com)|' README.md
 
       - name: Convert to PDF
         env:
