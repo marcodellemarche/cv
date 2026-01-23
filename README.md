@@ -11,10 +11,10 @@
 ## Core Skills
 
 - **Languages**: Go, Rust, TypeScript, Python, Bash
-- **Backend**: PostgreSQL, Redis, Kafka, Node.js, microservices architecture
+- **Backend**: PostgreSQL, Redis, Kafka, Node.js
 - **Frontend**: React, Angular, Next.js
 - **Infrastructure**: Docker, Kubernetes, CI/CD, Bazel
-- **Other**: E2E testing, unit testing, distributed systems, performance optimization
+- **Other**: E2E + unit testing, distributed systems, microservices architecture, performance optimization
 
 ## 💻 Engineering Experience
 
