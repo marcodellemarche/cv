@@ -43,6 +43,13 @@ Software-driven 4G mobile provider, designed specifically for in-building and ou
 
 *Technologies*: Angular, TypeScript, Node.js, Bash, Python.
 
+## Publications
+
+- [Optimizing PostgreSQL Queries: Index Best Practices & Techniques](https://medium.com/cubbit/optimizing-postgresql-queries-index-best-practices-techniques-81c25615a84e)
+- [Table Partitioning in PostgreSQL: Performance & Bloat](https://medium.com/cubbit/table-partitioning-in-postgresql-performance-bloat-7c248dd2d604)
+- [Autovacuum in PostgreSQL Database](https://medium.com/cubbit/autovacuum-in-postgresql-database-472679e678d3)
+- [PostgreSQL WAL, Replication, Checkpoints](https://medium.com/cubbit/postgresql-wal-replication-checkpoints-6681b8e0a0f1)
+
 <div class="page-break"></div>
 
 ## 📡 Telecommunications Experience
