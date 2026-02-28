@@ -10,9 +10,7 @@ defaults:
   - scope:
       path: ""
     values:
-      description: |
-        Full Stack engineer with strong expertise in distributed systems and scalable backend architectures. 
-        Experienced in Go, Rust, and Node.js microservices.
+      description: "Full Stack engineer experienced in Go, Rust, and Node.js microservices and distributed systems."
       image:
         path: /assets/og-image.png
         width: 1200
