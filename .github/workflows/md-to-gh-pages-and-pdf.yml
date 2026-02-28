@@ -78,11 +78,11 @@ jobs:
             --css '.page-break { page-break-after: always; }' \
             --pdf-options '{ "format": "a4", "margin": "15mm 15mm" }' \
             --launch-options '{ "args": [ "--no-sandbox" ] }'
-          mv README.pdf cv.pdf
+          mv README.pdf marco-ferretti-cv.pdf
 
       - name: Upload PDF into latest release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
           name: Latest CV
-          files: cv.pdf
+          files: marco-ferretti-cv.pdf
