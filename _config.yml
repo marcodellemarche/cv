@@ -1,3 +1,25 @@
 theme: jekyll-theme-cayman
-title: CV 🚀
-description: Full stack software engineer's CV
+title: "Marco Ferretti"
+description: "Full Stack Software Developer"
+url: "https://cv.marcodellemarche.com"
+author: "Marco Ferretti"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+    values:
+      description: |
+        Full Stack engineer with strong expertise in distributed systems and scalable backend architectures. 
+        Experienced in Go, Rust, and Node.js microservices.
+      image:
+        path: /assets/og-image.png
+        width: 1200
+        height: 630
+        alt: "Marco Ferretti"
+exclude:
+  - SETUP.md
+  - setup.py
+  - cv-prompt.txt
+  - "*.pdf"
