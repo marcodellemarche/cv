@@ -50,6 +50,32 @@ Software-driven 4G mobile provider, designed specifically for in-building and ou
 - [Autovacuum in PostgreSQL Database](https://medium.com/cubbit/autovacuum-in-postgresql-database-472679e678d3)
 - [PostgreSQL WAL, Replication, Checkpoints](https://medium.com/cubbit/postgresql-wal-replication-checkpoints-6681b8e0a0f1)
 
+## 🚀 Open Source Projects
+
+**[Cubbit Seal](https://github.com/marcodellemarche/cubbit-seal)** — Browser-based encrypted file sharing over Cubbit S3, with zero backend.
+
+- Single React + TypeScript app with client-side AES-256-GCM encryption via the Web Crypto API; no server ever sees plaintext or passwords.
+- Supports files of any size via multipart upload with per-chunk encryption and streaming in-browser decryption — no full file loaded into memory.
+- Password embedded in the URL fragment (`#p=…`); SigV4 presigning implemented manually in the browser with no time limit.
+
+*Technologies:* TypeScript, React, Web Crypto API, AWS SDK, Vite.
+
+**[Cubbit Pages](https://github.com/marcodellemarche/cubbit-pages)** — Go CLI for deploying static sites to Cubbit S3, with optional end-to-end encryption.
+
+- Encrypts each file with AES-256-GCM (PBKDF2 key derivation) and injects a login page + service worker that decrypts assets transparently in the browser.
+- Supports named profiles, dry-run, smart clean (removes stale remote files), deep status, and self-update via GitHub Releases.
+- Published as pre-built binaries for Linux, macOS, and Windows.
+
+*Technologies:* Go, AWS SDK v2, AES-256-GCM, Service Workers, GitHub Actions.
+
+**[cvmd](https://github.com/marcodellemarche/cvmd)** — Markdown-first CV template with automated PDF generation — the template this CV is built on.
+
+- GitHub Actions pipeline renders the CV to a styled PDF on every push and attaches it to a GitHub Release.
+- Setup wizard personalizes placeholders and generates an LLM prompt to rewrite the content from scratch.
+- Supports circular profile photos, Open Graph images, and custom domains via GitHub Pages.
+
+*Technologies:* Jekyll, GitHub Actions, Python, GitHub Pages.
+
 <div class="page-break"></div>
 
 ## 📡 Telecommunications Experience
