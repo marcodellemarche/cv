@@ -50,6 +50,14 @@ Software-driven 4G mobile provider, designed specifically for in-building and ou
 - [Autovacuum in PostgreSQL Database](https://medium.com/cubbit/autovacuum-in-postgresql-database-472679e678d3)
 - [PostgreSQL WAL, Replication, Checkpoints](https://medium.com/cubbit/postgresql-wal-replication-checkpoints-6681b8e0a0f1)
 
+## Open Source Projects
+
+**[cvmd](https://github.com/marcodellemarche/cvmd)**: Markdown CV template with automated PDF generation. This CV is built on it.
+
+**[Cubbit Seal](https://seal.s3.cubbit.eu/index.html)**: Browser-based encrypted file sharing. AES-256-GCM client-side, no backend, streaming multipart for large files.
+
+**[Cubbit Pages](https://pages.s3.cubbit.eu/index.html)**: CLI to deploy static sites on Cubbit S3, with optional end-to-end encryption and transparent in-browser decryption.
+
 <div class="page-break"></div>
 
 ## 📡 Telecommunications Experience
