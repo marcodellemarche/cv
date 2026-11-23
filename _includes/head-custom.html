@@ -1,0 +1,84 @@
+<!-- Setup Google Analytics -->
+{% include head-custom-google-analytics.html %}
+
+<!-- TL;DR mode: same CV, minus the fluff -->
+{% capture tldr_md %}{% include tldr.md %}{% endcapture %}
+<template id="cv-tldr-template">{{ tldr_md | markdownify }}</template>
+
+<style>
+  .tldr-note {
+    display: inline-block;
+    margin: 0 0 1.5rem;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.85rem;
+    color: #606c71;
+    background: #f3f6fa;
+    border: 1px solid #dce6f0;
+    border-radius: 0.3rem;
+  }
+  #cv-tldr { font-size: 1.15rem; }
+  #cv-tldr h2 { margin-top: 2.2rem; }
+  #cv-tldr ul { padding-left: 1.2rem; }
+  #cv-tldr-toggle { cursor: pointer; font: inherit; }
+  #cv-tldr-toggle[aria-pressed="true"] {
+    background-color: rgba(255, 255, 255, 0.35);
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+  .page-header .project-tagline { transition: opacity 0.15s; }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var main = document.querySelector('main.main-content');
+    var header = document.querySelector('.page-header');
+    var tpl = document.getElementById('cv-tldr-template');
+    if (!main || !header || !tpl) return;
+
+    // Split <main> into the full CV and the TL;DR, leaving the footer alone.
+    var footer = main.querySelector('.site-footer');
+    var full = document.createElement('div');
+    full.id = 'cv-full';
+    Array.prototype.slice.call(main.childNodes).forEach(function (n) {
+      if (n !== footer) full.appendChild(n);
+    });
+    var tldr = document.createElement('div');
+    tldr.id = 'cv-tldr';
+    tldr.hidden = true;
+    tldr.appendChild(tpl.content.cloneNode(true));
+    main.insertBefore(full, footer);
+    main.insertBefore(tldr, footer);
+
+    var words = function (el) { return (el.textContent.match(/[\p{L}\p{N}]+/gu) || []).length; };
+    var a = words(full), b = words(tldr);
+    var note = document.createElement('p');
+    note.className = 'tldr-note';
+    note.textContent = 'Same CV, ' + Math.round((1 - b / a) * 100) + '% fewer words.';
+    tldr.insertBefore(note, tldr.firstChild);
+
+    var tagline = header.querySelector('.project-tagline');
+    var fullTagline = tagline ? tagline.textContent : '';
+    var shortTagline = 'Backend. Go, Rust, Postgres.';
+
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.id = 'cv-tldr-toggle';
+    btn.className = 'btn';
+    header.insertBefore(btn, header.querySelector('.btn'));
+
+    function set(on, push) {
+      full.hidden = on;
+      tldr.hidden = !on;
+      btn.setAttribute('aria-pressed', on);
+      btn.textContent = on ? 'Put the fluff back' : 'TL;DR';
+      if (tagline) tagline.textContent = on ? shortTagline : fullTagline;
+      if (push) history.replaceState(null, '', on ? '#tldr' : location.pathname + location.search);
+    }
+
+    btn.addEventListener('click', function () {
+      var on = tldr.hidden;
+      set(on, true);
+      if (typeof gtag === 'function') gtag('event', on ? 'tldr_on' : 'tldr_off');
+    });
+    set(location.hash === '#tldr', false);
+  });
+</script>
